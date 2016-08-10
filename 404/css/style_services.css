@@ -1,0 +1,296 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../font/material_icons.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.menucolor{
+    background-color: transparent;
+    box-shadow: 0px 0px;
+    
+}
+section{
+    padding: 2% 0 2% 0;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.logo p{
+    margin-top: -85px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+.services{
+margin-top: -65px;
+    position: relative;
+    background-image: url("../img/services/head_services.jpg");
+    background-size:cover;
+    overflow: auto;
+    height:800px;
+}
+.title_our{
+    font-size: 80px;
+    margin-top: 320px;
+     color: #f2f2f2;
+}
+.our_worksub{
+    font-size: 20px;
+    text-align: justify;
+    color: #f2f2f2;
+    margin-top: 330px;
+}
+
+@media only screen and (max-width: 647px){
+    .our_worksub{
+     margin-top:-100px;
+    }
+    .title_our{
+        text-align: center;
+        margin-top: 300px;
+    }
+}
+
+
+.strategy{
+   margin-top: 120px;
+   
+}
+.strategy p{
+    font-size: 60px;
+   margin-top: 0;  
+   color: azure;
+}
+.strategyp{
+    font-size: 20px;
+    margin-top: 120px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 647px){
+    .strategy{
+        margin-top: 20px;
+    
+    }
+    .strategy img{
+        height: 200px;
+        width: 150px;
+    
+    }
+    .strategyp{
+        text-align: center;
+        margin-top:-85px;
+        text-align: justify;
+    }
+}
+.ios_and{
+   margin-top: 120px;      
+}
+.ios_and img{
+    height: 300px;
+    width: 350px;
+}
+.ios_and p{
+   margin-top: 0;  
+   color: azure;
+    font-size: 50px;
+}
+.ios_andp{
+    font-size: 20px;
+    margin-top: 120px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 647px){
+    .ios_and{
+        margin-top:20px;
+        
+    }
+     .ios_and p{
+        
+    }
+    .ios_and img{
+        height: 220px;
+        width: 270px
+    }
+    .ios_andp{
+        text-align: center;
+        margin-top:-85px;
+        text-align: justify;
+    }
+}
+.front{
+   margin-top: 120px;      
+}
+.front p{
+   margin-top: 0;  
+   color: azure;
+    font-size: 50px;
+}
+.frontp{
+    margin-top: 200px;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+}
+@media only screen and (max-width: 647px){
+    .front{
+        margin-top:20px;
+        
+    }
+     .front p{
+        
+    }
+    .front img{
+        height: 220px;
+        width: 270px
+    }
+    .frontp{
+        text-align: center;
+        margin-top:-60px;
+        text-align: justify;
+    }
+}
+.back{
+   margin-top: 120px;      
+}
+.back p{
+   margin-top: 0;  
+   color: azure;
+    font-size: 50px;
+}
+.backp{
+    margin-top: 120px;
+    color: aliceblue;
+    text-align: justify;
+    font-size: 20px;
+}
+@media only screen and (max-width: 647px){
+    .back{
+        margin-top:20px;
+        
+    }
+     .back p{
+        
+    }
+    .back img{
+        height: 220px;
+        width: 270px
+    }
+    .backp{
+        text-align: center;
+        margin-top:-60px;
+        text-align: justify;
+    }
+}
+.mobil_strategy{
+    
+    position: relative;
+    background-image: url("../img/services/mobileStrategy_backgraund.png");
+    background-size:cover;
+    overflow: auto;
+    height:800px;
+}
+.backend{
+
+    position: relative;
+    background-image: url("../img/services/mobileStrategy_backgraund.png");
+    background-size:cover;
+    overflow: auto;
+    height:800px;
+}
+
+main>section img{
+    width: 250px;
+}
+
+.ios_andorid{
+    
+    position: relative;
+    background-image: url("../img/services/iosAndAndroidApp_Backgraund.png");
+    background-size:cover;
+    overflow: auto;
+    height:800px;
+}
+.frontend{
+     position: relative;
+    background-image: url("../img/services/responsive_design.jpg");
+    background-size:cover;
+    overflow: auto;
+    height:700px;
+}
+.backend{
+    position: relative;
+    background-image: url("../img/services/baken_developent_backgraund.jpg");
+    background-size:cover;
+    overflow: auto;
+    height:800px;
+}
+/* frontend  Backend*/
+.icofooter a img{
+    width: 40px;
+    padding-left: 10px;
+    margin-top: 10px
+    
+}
+.contacto{
+    position: relative;
+    background-image: url("../img/whoweare/mapa_contacto_backgrund.jpg");
+    background-size: cover;
+    overflow: auto;
+    }
+.contact-holder{
+    color: aliceblue;
+    margin-top: 80px;
+}
+@media only screen and (max-width: 647px){
+    .contact-holder{
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+    .contact-holder h4{
+        font-size: 40px;
+        
+    }
+    .contact-holder h6{
+        font-size: 20px;
+        
+    }
+}
+.input-field{
+    background-color: rgba(12,12,12,0.5);
+    font-size: 25px;
+}
+.btn{
+    background-color:  rgba(12,12,12,0.5);
+}
+
+.mobil {
+     opacity: 0;
+        
+}
+
+#strategy img, #strategy p{
+    opacity: 0;
+}
+
+

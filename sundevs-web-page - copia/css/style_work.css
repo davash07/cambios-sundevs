@@ -1,0 +1,183 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../font/material_icons.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.menucolor{
+    background-color: transparent;
+    box-shadow: 0px 0px;
+    
+}
+section{
+    padding: 2% 0 2% 0;
+	
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.logo p{
+    margin-top: -85px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+body {
+
+}
+.apps{
+    position:relative;
+    background-image: url("../img/work/backgraund_work.jpg");
+    background-size:auto;
+    overflow: auto;
+}
+.title_our{
+    font-size: 90px;
+    margin-top: 170px;
+     color: #f2f2f2;
+}
+.our_work{
+margin-top: -65px;
+    position: relative;
+    background-image: url("../img/work/head_backgraund.jpg");
+    background-size:cover;
+    overflow: auto;
+    height:600px;
+}
+.our_workp {
+    font-size: 20px;
+    margin-top: -125px;
+     color: #f2f2f2
+    
+}
+.our_worksub{
+    font-size: 20px;
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 200px;
+}
+
+.icofooter a img{
+    width: 40px;
+    padding-left: 10px;
+    margin-top: 10px
+    
+}
+.contacto{
+    position: relative;
+    background-image: url("../img/whoweare/mapa_contacto_backgrund.jpg");
+    background-size: cover;
+    overflow: auto;
+    }
+.contact-holder{
+    color: aliceblue;
+    margin-top: 80px;
+}
+@media only screen and (max-width: 647px){
+    .contact-holder{
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+    .contact-holder h4{
+        font-size: 40px;
+        
+    }
+    .contact-holder h6{
+        font-size: 20px;
+        
+    }
+}
+.input-field{
+    background-color: rgba(12,12,12,0.5);
+    font-size: 25px;
+}
+.btn{
+    background-color:  rgba(12,12,12,0.5);
+}
+
+/* SLIDER STYLES */
+	
+.slider-wrapper{
+	position:relative;
+	overflow:hidden;
+	
+	width:100%;
+	
+	margin:200px auto;
+	
+	background:transparent;
+	
+}
+.links img{
+   }
+
+.slider{
+	position:relative;
+	width:100%; 
+height:500px; 
+	margin:0 auto;
+	
+	background:transparent;
+}
+
+@media only screen and (min-width: 1000px){
+	.slider{
+		width:1000px;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+	.slider{
+		width:1440px;
+	}
+}
+
+
+/* ELEMENT STYLES */
+
+.textos p{
+	position:absolute;
+	top:-200px;
+	z-index:8000;
+	padding:1% 2%;
+	font-size:18px;
+	line-height:100%;
+	color:#e8e2e2;
+	white-space: nowrap;
+	text-transform:uppercase;
+}
+
+.claim{
+	line-height:;
+}	
+
+.teaser{
+	padding:0.5% 1.5%;
+	font-size:14px;
+	 line-height:100%
+}
+
+.small{
+	width:200px;
+   padding-left:10px; padding-right:0px;
+	text-align:center;
+}

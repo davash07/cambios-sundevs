@@ -1,0 +1,428 @@
+html{
+    font-family: 'roboto';
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../font/material_icons.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.logo p{
+    margin-top: -85px;
+    margin-left: 80px;
+    font-size: 25px;
+}
+.title_who{
+    font-size: 90px;
+    margin-top: -100px;
+    font-family: 'roboto';
+  
+}
+
+.whow_we_are{
+    background-color:;
+}
+.imga{
+    width: 350px;
+    }
+.text_one{
+    margin-top: -80px;
+}
+.texto_one{
+    margin-top:80px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: ;
+}
+.text_two{
+    
+}
+.texto_two{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: ;
+}
+.menuc{
+    color: rgb(145, 145, 145);
+}#menuc{
+    color: rgb(145, 145, 145);
+}
+.wearesundevs{
+    position: relative;
+    background-image: url("../img/whoweare/instagram_backgraund.jpg");
+    background-size: cover;
+    overflow: auto;
+    }
+#instagram{
+    width: 900px;
+    height: 500px;
+   
+}
+.menucolor{
+    background-color: transparent;
+    box-shadow: 0px 0px;
+    
+}
+section{
+    padding: 2% 0 2% 0;
+   
+}
+.organizculture{
+    background-color: #232323
+}
+.credo{
+    position: relative;
+    background-image: url("../img/whoweare/credo.jpg");
+    background-size: cover;
+    overflow: auto;
+    background-repeat: no-repeat;
+    
+    }
+.listadep ul li{
+    background-color:rgba(26, 26, 26,1);
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    width: 500px;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.listadep li{
+    -webkit-animation: fadeinleft 5s infinite;
+}
+.contacto{
+    position: relative;
+    background-image: url("../img/whoweare/mapa_contacto_backgrund.jpg");
+    background-size: cover;
+    overflow: auto;
+    }
+.contact-holder{
+    color: aliceblue;
+    margin-top: 80px;
+}
+.input-field{
+    background-color: rgba(12,12,12,0.5);
+    font-size: 25px;
+}
+.btn{
+    background-color:  rgba(12,12,12,0.5);
+}
+
+.mision{
+    height: 350px;
+    width: 100%;
+}
+.misiontext{
+    margin-top: -350px;
+}
+.mision h2{
+    margin-left: 8px;
+}
+.mision p{
+    margin-top:;
+    width:96%;
+    margin-left: 8px;
+     
+}
+.mision img{
+    width: 100%;
+   height: 350px;        
+}
+.vision{
+    width: 100%;
+   height: 350px;
+}
+.visiontext{
+    margin-top: -350px;
+}
+.vision h2{
+    margin-left: 8px;
+}
+.vision p{
+    margin-top:;
+    width:96%;
+    margin-left: 8px;
+     
+}
+.vision img{
+   height: 350px;  
+    width: 100%;
+}
+.centro{
+    margin-top: 80px;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.6);
+}
+.mision p{
+    font-size: 15px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.6);
+   
+}
+.vision p{
+    font-size: 15px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.6);
+}
+.icofooter a img{
+    width: 40px;
+    padding-left: 10px;
+    margin-top: 10px
+}
+@media only screen and (max-width: 1500px){
+  .texto_one{
+        margin-top: 40px;
+    }
+    .texto_two{
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 1200px){
+  .texto_one{
+    margin-top: 40px;
+      font-size: 15px;
+    }
+    
+    .texto_two{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 850px){
+   .texto_one{
+    margin-top: 10px;
+      font-size: 15px;
+    }
+    .img1{
+        margin-top: 0px;
+    }
+    
+    .texto_two{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width: 750px){
+.img1, .img2{
+    margin-top: 20px;
+        
+    }
+}
+
+@media only screen and (max-width: 867px){
+    .vision p, .mision p{
+       font-size: 15px; 
+    }
+}
+@media only screen and (max-width: 647px){
+    .contact-holder{
+        margin-top: 10px;
+        text-align: center;
+        
+    }
+    .contact-holder h4{
+        font-size: 40px;
+        
+    }
+    .contact-holder h6{
+        font-size: 20px;
+        
+    }
+}
+
+.instagram img{
+    -webkit-box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.54);
+-moz-box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.54);
+    -o-box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.54);
+box-shadow: 3px 3px 15px 3px rgba(0,0,0,0.54);
+}
+
+.instagram {
+    margin-top: 15px;
+  line-height: 10px;
+   -webkit-column-count: 4;
+   -webkit-column-gap:   10px;
+   -moz-column-count:    4;
+   -moz-column-gap:      10px;
+   -o-column-count:    4;
+   -o-column-gap:      10px;
+   column-count:         4;
+   column-gap:           10px;
+}
+
+.instagram img {
+ 
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  .instagram {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+    column-count:         4;
+    -o-column-count: 4;
+  }
+    .follow{
+        margin-top: -100px;
+        margin-right: 0px; 
+        height: 150px;
+        width: 250px;
+    }
+  
+}
+@media (max-width: 1000px) {
+  .instagram {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+      -o-column-count:  4;
+  column-count:         4;
+  }
+    .follow{
+        margin-top: -200px;
+       margin-right: 0px; 
+        height: 150px;
+    width: 250px;
+    }
+        .misiontext p{
+       font-size: 20px;
+        
+        }
+    .misiontext, .visiontext{
+        margin-top: -400px;
+    }
+    .visiontext p{
+        font-size: 20px;
+        
+    }
+    
+}
+@media (max-width: 800px) {
+ .instagram {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+-o-column-count:  2;
+  column-count:         2;
+  }
+    .follow{
+        margin-top: -200px;
+        margin-right:20px;
+        height: 150px;
+    width: 250px;
+    }
+    .misiontext p{
+       font-size: 15px;
+        width: 240px;
+        }
+    .misiontext, .visiontext{
+        margin-top: -430px;
+    }
+    .visiontext p{
+        font-size: 15px;
+        width: 240px;
+    }
+        
+}
+@media (max-width: 600px) {
+  .instagram {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+      -o-column-count:  1;
+  column-count:         1;
+  }
+    .follow{
+    margin-top: 0px;
+    height: 150px;
+    width: 250px;
+    margin-right: 130px;
+    
+}
+ 
+    .misiontext, .visiontext{
+        margin-top: -430px;
+    }
+    .visiontext p{
+        font-size: 15px;
+        width: 450px;
+    }
+        .misiontext p{
+       font-size: 15px;
+        width: 450px;
+        }
+    .misiontext, .visiontext{
+        margin-top: -330px;
+    }
+   
+        
+}
+}
+.btninstagram{
+    margin-top: 30px;
+    height: 10px;
+}
+.follow{
+    margin-top: -200px;
+     height: 150px;
+    width: 250px;
+}
+.followbtn p{
+    font-size: 15px;
+}
+
+.button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: roboto;
+  color: #626262;
+  font-size: 13px;
+  padding: 10px 50px;
+  height: auto ;
+  text-align: center;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  min-width: ;
+  border: solid #626262 3px;
+  text-decoration: none;
+  background: rgba(0,0,0,0.2);
+  font-weight: normal;
+  transition: 0.2s;  
+     
+}
+.followbtn{
+    margin-top: 80px;
+    width: 100%;
+}
+
+
+
+.credoh {
+    margin-top: 320px;
+    font-size: 110px;
+}
