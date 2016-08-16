@@ -1,3 +1,10 @@
+
+
+	$(window).load(function() {
+		
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
 $(document).ready(function(){
     $('.scrollspy').scrollSpy();
   });
