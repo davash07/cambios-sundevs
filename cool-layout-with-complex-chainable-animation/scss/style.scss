@@ -56,13 +56,12 @@ $contentFadeinAT: 0.5s;
 .cont {
   position: relative;
   overflow: hidden;
-  height: 1000px;
+  height: 100vh;
   padding: $vertPad $sidePad;
 
   &__inner {
     position: relative;
     height: 100%;
-	  width: auto;
     
     &:hover .el__bg:after {
       opacity: 1;
@@ -140,7 +139,7 @@ $contentFadeinAT: 0.5s;
       top: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0,0,0,1);
+      background: rgba(0,0,0,0.3);
       opacity: 0;
       transition: opacity $opacityAT;
       
@@ -156,7 +155,7 @@ $contentFadeinAT: 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
-    position:relative;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
@@ -202,16 +201,9 @@ $contentFadeinAT: 0.5s;
   }
   
   &__text {
-   	height:auto;
-	width: 100%;
-	float: left;
-	position: relative;
-	 
-  }
- &__text2 {
     text-transform: uppercase;
     font-size: 40px;
-    color: #fff;	
+    color: #fff;
   }
   
   &__close-btn {
@@ -367,7 +359,7 @@ $contentFadeinAT: 0.5s;
 
         &:before {
           transition-delay: 0.1s * $i;
-         
+          background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-#{$i + 3}.jpg');
         }
       }
     }
