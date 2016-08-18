@@ -61,30 +61,59 @@
 }
 @media (max-width: 863px){
     .cinemark{
-        text-align: center;
-        margin-top: 0px;
+        margin-left:-50px;
+        margin-top: 20px;
     }
     .cinemark img{
-        width: 450px;
+        width: 350px;
     }
     .play{
-        text-align: center;
+        text-align: left;
+        margin-left: 50px;
     }
     .play img{
         width: 90px;
     }
     .ios{
-        margin-top: 0px;
+        margin-top: -200px;
+        margin-left: -20px;
     }
     .ios img{
-        width: 200px;
+        width: 150px;
     }
-    .andorid{
-        margin-right: 0px;
-        margin-top: 0px;
+    .android{
+        margin-top: -185px;
     }
      .android img{
-         width: 250px;
+         width: 190px;
+    }
+}
+@media (max-width:662px){
+    .cinemark{
+        margin-top: -30px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .cinemark img{
+        width: 280px;
+    }
+    .ios{
+        margin-top: 0px;
+       margin-right: 15%;
+    }
+    .ios img{
+        width: 100px;
+    }
+    .android{
+        margin-top: 10px;
         
+    }
+    .android img{
+        width: 130px;
+    }
+    .play{
+        margin-top: 210px;
+        text-align: center;
+        margin-left: 10px;
     }
 }

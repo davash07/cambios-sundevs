@@ -16,7 +16,7 @@ body {
   padding: 80px 70px;
 }
 .cont__inner {
-  position: relative;
+  position:relative;
   height: 100%;
 }
 .cont__inner:hover .el__bg:after {
@@ -365,7 +365,7 @@ body {
 .el:nth-child(2) .el__bg:before {
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-4.jpg");
+  background-image: url("../work/slider/beatgams/background.jpg");
 }
 .el:nth-child(3) {
   -webkit-transform: translate3d(210.41667%, 0, 0);
