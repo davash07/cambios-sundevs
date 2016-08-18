@@ -1,16 +1,37 @@
 .cinemark{
-    margin-top: -50px;
+    margin-top: -30px;
 }
 .cinemark img{
-  width: 650px;
+  width: 550px;
    
 }
 .beatgams{
-    margin-top: -70px;
+    margin-top: -75px;
     margin-left: 100px;
 }
 .beatgams img{
-  width: 500px;
+  width: 450px;
+}
+.site{
+    margin-top: 0px;
+    margin-left: 100px;
+}
+.site img{
+    width: 450px;
+}
+.bano{
+    margin-top: -40px;
+    margin-left: 100px;
+}
+.bano img{
+    width: 270px;
+}
+.boomerang{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.boomerang img{
+    width: 550px;
 }
 .ios{
    float: right;
@@ -26,9 +47,29 @@
 .iosb img{
  width: 200px;
 }
+.ios5{
+    float: right;
+    margin-top: -220px;
+}
+.ios5 img{
+    width: 180px;
+}
+.ioso{
+    float: right;
+    margin-top: -300px;
+}
+.ioso img{
+    width: 180px;
+}
+.iosbo{
+    float: right;
+    margin-top: -200px;
+}
+.iosbo img{
+    width: 180px;
+}
 .android{
     float: right;
-    margin-right: ;
     margin-top: -320px;
 }
 .android img{
@@ -42,18 +83,60 @@
 .androidb img{
     width: 250px;
 }
+.android5{
+    float: right;
+    margin-top: -190px;
+}
+.android5 img{
+    width: 220px;
+}
+.androido{
+    float: right;
+    margin-top: -270px;
+}
+.androido img{
+    width: 220px;
+}
+.androidbo{
+    float: right;
+    margin-top: -170px;
+}
+.androidbo img{
+    width: 220px;
+}
 .play{
     margin-top: -0px;
-    margin-left: 150px;
+    margin-left: 120px;
 }
 .play img{
     width: 180px;
 }
 .playb{
     margin-top: -50px;
-    margin-left: 150px;
+    margin-left: 140px;
 }
 .playb img{
+    width: 180px;
+}
+.play5{
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.play5 img{
+    width: 180px;
+}
+.playo{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.playo img{
+    width: 180px;
+}
+.playbo{
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.playbo img{
     width: 180px;
 }
 @media (max-width: 1062px){
@@ -65,18 +148,53 @@
         width: 450px;
     }
     .beatgams{
-        margin-left: -60px;
-        margin-top: 45px;
+        margin-left: 60px;
+        margin-top: 0px;
     }
     .beatgams img{
-        width: 450px;
+        width: 350px;
+    }
+    .site{
+        margin-left: 60px;
+        margin-top: 30px;
+    }
+    .site img{
+        width: 350px;
+    }
+    .boomerang{
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .boomerang img{
+        width: 400px;
     }
     .play{
         margin-left: 100px;
     }
     .play img{
-      
         width: 90px;
+    }
+    .playb{
+        margin-left: 140px;
+        margin-top: -30px;
+    }
+    .playb img{
+        width: 90px;
+    }
+    .play5{
+        margin-left: 140px;
+        margin-top: 30px;
+    }
+    .play5 img{
+        width: 120px;
+    }
+    
+    .playbo{
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    .playbo img{
+        width: 120px;
     }
     .ios{
         margin-top: -350px;
@@ -84,12 +202,50 @@
     .ios img{
         width: 200px;
     }
-    .andorid{
-        margin-right: 90px;
-        margin-top: 100px;
+    .iosb{
+        margin-top: -350px;
+    }
+    .iosb img{
+        width: 200px;
+    }
+    .ios5{
+        margin-top: -200px;
+    }
+    .ios5 img{
+        width: 170px;
+    }
+  .iosbo{
+        margin-top: -170px;
+    }
+    .iosbo img{
+        width: 170px;
     }
      .android img{
          width: 250px;
+        
+    }
+    .androidb{
+        margin-right: -40px;
+        margin-top: -330px;
+    }
+     .androidb img{
+         width: 250px;
+        
+    }
+    .android5{
+        margin-right: -30px;
+        margin-top: -160px;
+    }
+     .android5 img{
+         width: 200px;
+        
+    }
+     .androidbo{
+        margin-right: -30px;
+        margin-top: -130px;
+    }
+     .androidbo img{
+         width: 200px;
         
     }
 }
@@ -101,12 +257,69 @@
     .cinemark img{
         width: 350px;
     }
+    .beatgams{
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+    .beatgams img{
+        width: 300px;
+    }
+    .site{
+        margin-left: -5px;
+        margin-top: 80px;
+    }
+    .site img{
+        width: 270px;
+    }
+    .bano{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .bano img{
+        width: 220px;
+    }
+    .boomerang{
+        margin-left: 5px;
+        margin-top: 100px;
+        
+    }
+    .boomerang img{
+        width: 300px;
+    }
     .play{
         text-align: left;
         margin-left: 50px;
     }
     .play img{
         width: 90px;
+    }
+    .playb{
+        text-align: left;
+        margin-left: 0px;
+    }
+    .playb img{
+        width: 90px;
+    }
+    .play5{
+        text-align: left;
+        margin-left: 20px;
+    }
+    .play5 img{
+        width: 100px;
+    }
+    .playo{
+        text-align: left;
+        margin-left: 0px;
+    }
+    .playo img{
+        width: 100px;
+    }
+    .playbo{
+        text-align: left;
+        margin-left:55px;
+    }
+    .playbo img{
+        width: 100px;
     }
     .ios{
         margin-top: -200px;
@@ -115,21 +328,109 @@
     .ios img{
         width: 150px;
     }
+    .iosb{
+        margin-top: -240px;
+        margin-left: -25px;
+    }
+    .iosb img{
+        width: 150px;
+    }
+      
+    .ios5{
+        margin-top: -170px;
+        margin-left: -25px;
+    }
+    .ios5 img{
+        width: 150px;
+    }
+    .ioso{
+        margin-top: -250px;
+        margin-left: -25px;
+    }
+    .ioso img{
+        width: 150px;
+    }
+    .iosbo{
+        margin-top: -120px;
+        margin-left: -25px;
+    }
+    .iosbo img{
+        width: 150px;
+    }
     .android{
         margin-top: -185px;
     }
      .android img{
          width: 190px;
     }
+    .androidb{
+        margin-top: -230px;
+    }
+     .androidb img{
+         width: 190px;
+    }
+    .android5{
+        margin-top: -152px;
+        margin-right: -2px;
+    }
+     .android5 img{
+         width: 190px;
+    }
+    .androido{
+        margin-top: -232px;
+        margin-right: -2px;
+    }
+     .androido img{
+         width: 190px;
+    }
+    .androidbo{
+        margin-top: -102px;
+        margin-right: -2px;
+    }
+     .androidbo img{
+         width: 190px;
+    }
 }
 @media (max-width:662px){
     .cinemark{
-        margin-top: -30px;
+        margin-top: -40px;
         text-align: center;
         margin-left: 10px;
     }
     .cinemark img{
-        width: 280px;
+        width: 250px;
+    }
+    .beatgams{
+        margin-top: -45px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .beatgams img{
+        width: 200px;
+    }
+    .site{
+        margin-top: 5px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .site img{
+        width: 200px;
+    }
+    .bano{
+        margin-top: -40px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .bano img{
+        width: 120px;
+    }
+     .boomerang{
+        margin-top: 40px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .boomerang img{
+        width: 350px;
     }
     .ios{
         margin-top: 0px;
@@ -138,6 +439,34 @@
     .ios img{
         width: 100px;
     }
+    .iosb{
+        margin-top: -20px;
+        margin-right: 15%;
+    }
+    .iosb img{
+        width: 100px;
+    }
+    .ios5 img{
+        width: 100px;
+    }
+    .ios5{
+        margin-top: 0px;
+        margin-right: 15%;
+    }
+    .ioso img{
+        width: 100px;
+    }
+    .ioso{
+        margin-top: 0px;
+        margin-right: 15%;
+    }
+    .iosbo img{
+        width: 100px;
+    }
+    .iosbo{
+        margin-top: 0px;
+        margin-right: 15%;
+    }
     .android{
         margin-top: 10px;
         
@@ -145,9 +474,63 @@
     .android img{
         width: 130px;
     }
+    .androidb{
+        margin-top: -18px;
+        
+    }
+    .androidb img{
+        width: 130px;
+    }
+    .android5{
+        margin-top: 6px;
+        margin-right: 10px;
+        
+    }
+    .android5 img{
+        width: 130px;
+    }
+     .androido{
+        margin-top: 6px;
+        margin-right: 10px;
+        
+    }
+    .androido img{
+        width: 130px;
+    }
+     .androidbo{
+        margin-top: 6px;
+        margin-right: 10px;
+        
+    }
+    .androidbo img{
+        width: 130px;
+    }
     .play{
         margin-top: 210px;
         text-align: center;
         margin-left: 10px;
+    }
+    .playb{
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .play5{
+        margin-top: 20px;
+        text-align: center;
+        margin-left: 10px;
+        
+    }
+     .playo{
+        margin-top: 210px;
+        text-align: center;
+        margin-left: 10px;
+        
+    }
+     .playbo{
+        margin-top: 210px;
+        text-align: center;
+        margin-left: 10px;
+        
     }
 }
