@@ -393,7 +393,7 @@ body {
 .el:nth-child(3) .el__bg:before {
   -webkit-transition-delay: 0.2s;
           transition-delay: 0.2s;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-5.jpg");
+  background-image: url("../work/slider/5site/background.jpg");
 }
 .el:nth-child(4) {
   -webkit-transform: translate3d(315.625%, 0, 0);

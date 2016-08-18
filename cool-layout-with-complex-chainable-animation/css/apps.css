@@ -5,13 +5,26 @@
   width: 650px;
    
 }
+.beatgams{
+    margin-top: -70px;
+    margin-left: 100px;
+}
+.beatgams img{
+  width: 500px;
+}
 .ios{
    float: right;
     margin-top: -350px;
 }
 .ios img{
  width: 200px;
-  
+}
+.iosb{
+   float: right;
+    margin-top: -350px;
+}
+.iosb img{
+ width: 200px;
 }
 .android{
     float: right;
@@ -19,7 +32,14 @@
     margin-top: -320px;
 }
 .android img{
-
+    width: 250px;
+}
+.androidb{
+    float: right;
+    margin-right: ;
+    margin-top: -340px;
+}
+.androidb img{
     width: 250px;
 }
 .play{
@@ -29,12 +49,26 @@
 .play img{
     width: 180px;
 }
+.playb{
+    margin-top: -50px;
+    margin-left: 150px;
+}
+.playb img{
+    width: 180px;
+}
 @media (max-width: 1062px){
     .cinemark{
         margin-left: -60px;
         margin-top: 45px;
     }
     .cinemark img{
+        width: 450px;
+    }
+    .beatgams{
+        margin-left: -60px;
+        margin-top: 45px;
+    }
+    .beatgams img{
         width: 450px;
     }
     .play{
